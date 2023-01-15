@@ -1,0 +1,7 @@
+name: q1zZ-CombatLog
+main: me.q1zz.combatlog.CombatLogPlugin
+author: q1zZ
+version: 0.1
+api-version: 1.16
+website: https://github.com/q1zZu
+softdepend: [WorldGuard]
