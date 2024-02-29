@@ -1,0 +1,5 @@
+rootProject.name = 'q1zZ-CombatLog'
+
+// Plugin
+include 'q1zZ-CombatLog-plugin'
+
