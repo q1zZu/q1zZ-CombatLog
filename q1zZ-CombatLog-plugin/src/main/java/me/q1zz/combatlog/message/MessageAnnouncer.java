@@ -42,6 +42,10 @@ public class MessageAnnouncer {
         this.sendMessage(sender, message, new HashMap<>());
     }
 
+    public void broadcastMessage(@NotNull Message message, @NotNull Map<String, String> replacements) {
+        this.sendMessage(null, message, replacements);
+    }
+
     @NotNull
     private Audience getAudience(@Nullable CommandSender sender) {
 
